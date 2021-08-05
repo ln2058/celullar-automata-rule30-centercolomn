@@ -1,4 +1,5 @@
 Cellular Automata Rule 30 Middle Column Calculator
+
 --- Tool for generating the center column for Rule 30 cellular automata
 
 * Output list of 0 and 1
