@@ -1,6 +1,6 @@
 **Cellular Automata Rule 30 Middle Column Calculator [Python]**
 
---- Tool for generating the center column for Rule 30 cellular automata
+--- The center column of Rule 30 is random so it could be used for pseudo-random number generation.
 
 * Output list of 0 and 1
 * Very slow for calculating large sequences
