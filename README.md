@@ -1,4 +1,4 @@
-Cellular Automata Rule 30 Middle Column Calculator [Python]
+**Cellular Automata Rule 30 Middle Column Calculator [Python]**
 
 --- Tool for generating the center column for Rule 30 cellular automata
 
