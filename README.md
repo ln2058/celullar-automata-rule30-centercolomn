@@ -1,4 +1,5 @@
-**#Cellular Automata Rule 30 Middle Column Calculator [Python]#**
+**Cellular Automata Rule 30 Middle Column Calculator [Python]**
+=============
 
 The center column of Rule 30 is random so it could be used for pseudo-random number generation.
 
