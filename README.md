@@ -9,7 +9,7 @@ The center column of Rule 30 is random so it could be used for pseudo-random num
 
 
 ## Use ##
-* Change max_gen to desired number of iteration (only even number) and just run program
+* Change max_gen to desired number of iteration (only even number input) and just run program
 
 
 
