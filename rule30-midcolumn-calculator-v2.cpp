@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 using namespace std;
-void reverseArray(int arr[], int n)
+void reverseArray(int arr[], int n)  // used to reverse array later after copying
 {
     for (int low = 0, high = n - 1; low < high; low++, high--)
     {
@@ -16,7 +16,7 @@ void reverseArray(int arr[], int n)
 int main()
 {
     const long int max_gen = 1000, dim = (max_gen * 2 + 1);
-    int *cellular1 = new int[dim]{0};
+    int *cellular1 = new int[dim]{0};  // memory allocation
     int *cellular2 = new int[dim]{0};
     int *blank = new int[dim]{0};
 
@@ -54,7 +54,6 @@ int main()
             x = 1;
             bias = 1;
             y += 1;
-            // middle_data.push_back(cellular1[max_gen]);
             middle_data[y] = cellular2[max_gen];
             int i;
             for (i = 0; i < dim; i++)
@@ -81,12 +80,12 @@ int main()
     }
     int i, j;
     ofstream outfile;
-    outfile.open("C:/Users/Liamn/Documents/Projects/VS/mathia/celullar-automata-rule30-center-generator/result.txt");
+    outfile.open("result.txt"); // add custom path if you want to
     for (i = 0; i < max_gen; i++)
     {
         outfile << middle_data[i] << "  ";
     }
     outfile.close();
     cout << "Done. ";
-    system("pause");
+    system("pause");  // keep console open
 }
