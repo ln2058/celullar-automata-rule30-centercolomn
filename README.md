@@ -1,10 +1,11 @@
-**Cellular Automata Rule 30 Middle Column Calculator [Python]**
+**Cellular Automata Rule 30 Middle Column Calculator [Python & C++]**
 =============
 
 The center column of Rule 30 is random so it could be used for pseudo-random number generation.
 
 * Output list of 0 and 1
 * Very slow for calculating large sequences
+* C++ file is a lot faster than python but requires compiler
 
 
 
