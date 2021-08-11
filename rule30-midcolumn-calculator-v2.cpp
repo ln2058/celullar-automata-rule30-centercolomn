@@ -80,10 +80,10 @@ int main()
     }
     int i, j;
     ofstream outfile;
-    outfile.open("result.txt"); // add custom path if you want to
+    outfile.open("result.csv"); // add custom path if you want to
     for (i = 0; i < max_gen; i++)
     {
-        outfile << middle_data[i] << "  ";
+        outfile << middle_data[i] << ",";
     }
     outfile.close();
     cout << "Done. ";
