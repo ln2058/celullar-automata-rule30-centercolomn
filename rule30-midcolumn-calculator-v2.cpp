@@ -37,15 +37,15 @@ int main()
         { // apply rules
             cellular2[x] = 1;
         }
-        if (a == 0 && b == 1 && c == 1)
+        else if (a == 0 && b == 1 && c == 1)
         {
             cellular2[x] = 1;
         }
-        if (a == 0 && b == 1 && c == 0)
+        else if (a == 0 && b == 1 && c == 0)
         {
             cellular2[x] = 1;
         }
-        if (a == 0 && b == 0 && c == 1)
+        else if (a == 0 && b == 0 && c == 1)
         {
             cellular2[x] = 1;
         }
